@@ -1,0 +1,19 @@
+"projects": {
+    "angular-chrome-extension": {
+      ...
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            ...
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/manifest.json"
+            ],
+            ...
+          },
+        },
+      },
+    },
+  },
